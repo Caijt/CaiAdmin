@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspectCore.Abstractions" Version="2.1.0" />
+    <PackageReference Include="AspectCore.Core" Version="2.1.0" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="NEST" Version="7.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaiAdmin.ApiService\CaiAdmin.ApiService.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Common\CaiAdmin.Common.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Database\CaiAdmin.Database.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Dto\CaiAdmin.Dto.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Entity\CaiAdmin.Entity.csproj" />
+    <ProjectReference Include="..\CaiAdmin.MapperConfiguration\CaiAdmin.MapperConfiguration.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Option\CaiAdmin.Option.csproj" />
+  </ItemGroup>
+
+</Project>

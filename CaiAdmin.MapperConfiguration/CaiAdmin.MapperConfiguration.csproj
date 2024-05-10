@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaiAdmin.Dto\CaiAdmin.Dto.csproj" />
+    <ProjectReference Include="..\CaiAdmin.Entity\CaiAdmin.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
