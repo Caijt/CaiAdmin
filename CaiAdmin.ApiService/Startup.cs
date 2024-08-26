@@ -2,7 +2,6 @@
 using CaiAdmin.ApiService.Qywx;
 using Microsoft.Extensions.DependencyInjection;
 using CaiAdmin.ApiService.QQMap;
-using CaiAdmin.ApiService.CityOcean;
 
 [assembly: HostingStartup(typeof(CaiAdmin.ApiService.Startup))]
 namespace CaiAdmin.ApiService
@@ -15,7 +14,6 @@ namespace CaiAdmin.ApiService
             {
                 services.AddHttpClient<QywxApiService>();
                 services.AddHttpClient<QQMapApiService>();
-                services.AddHttpClient<CityOceanApiService>();
             });
         }
     }
